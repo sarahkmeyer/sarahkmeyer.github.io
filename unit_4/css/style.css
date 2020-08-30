@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Source+Sans+Pro:wght@700&display=swap');
 
-/**{
+*{
 	margin: 0;
 	padding: 0;
-}*/
+}
 
 header {
 	background-color: #fff;
@@ -12,7 +12,7 @@ header {
 body { 
 	font-family: 'Merriweather', serif;
 	font-size: 16px; /*1em = 16px*/
-	line-height: 1.5em;
+	line-height: 1.5;
 }
 
 h1, h2, h3 {
