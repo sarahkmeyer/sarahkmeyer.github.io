@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Source+Sans+Pro:wght@700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*header {
+	background-color: #fff;
+}*/
+body {
+	font-size: 16px; /*1em = 16px*/
+}
+
+header {
+   /* background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;*/
+    /*float: left;*/
+}
+
+nav {
+   /* background-color: #E8C66A;
+    border: 1px black solid;*/
+    /*padding: 20px;*/
+    font-size: 1em;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav a {
+	padding: .5em;
+}
+
+p { 
+	font-family: 'Merriweather', serif;
+	font-size: 1.0em; 
+	line-height: 1.5;
+	width: 30%;
+}
+
+h1, h2, h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+h1 {
+	font-size: 4.5em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+a {
+	font-family: 'Merriweather', serif;
+	font-size: 1em;
+	text-decoration: none;
+	color: #1F3291;
+	font-weight: bold;
+}
+
+ul {
+	font-size: 1em;
+	font-family: 'Source Sans Pro', sans-serif;
+	list-style-type: none;
+}
+
+footer p {
+	text-align: center;
+	width: 100%;
+}
+
+#intro {
+	background-image: url("images/meyer_plastics_hero_image.jpg");
+}
+
+#about {
+	float: left;
+}
+
+#credit {
+	display: block;
+	width: 30%;
+}
+
+#services {
+	float: left;
+}
+
+#footermain {
+	float: left;
+}
+
+#contact {
+	text-align: left;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  content: " ";
+  clear: both;
+  height: 0;
+  font-size: 0;
+}
+
+/*section, div {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}*/
+
+/*footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}*/
+
